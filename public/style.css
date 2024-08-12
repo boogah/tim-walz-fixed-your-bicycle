@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  font-family: 'Cooper Black', 'Caprasimo', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0;
+  background-color: #f5a7a3; /* Be more pink */
+  color: #0a0b0b;
+  margin: 0;
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.sentence {
+  font-size: clamp(2rem, 5vw + 1rem, 8rem);
+  font-family: 'Cooper Black', 'Caprasimo', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  max-width: 25ch;
+  color: #0a0b0b;
+  cursor: pointer;
+  padding: 0 clamp(1rem, .875em, 10rem);
+  width: 100%;
+  text-wrap: balance;
+}
+.link {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 1.25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 900;
+  color: #0a0b0b;
+  background-color: #f5a7a3;
+  text-decoration: none;
+  padding: .5em .75em;
+}
+.link:hover {
+  text-decoration: none;
+}
+.disclaimer {
+  background-color: #0a0b0b;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 600;
+  color: #f5a7a3;
+  padding: .75em 1em;
+  text-align: center;
+  text-wrap: balance;
+  width: 100%;
+  letter-spacing: .025ch;
+}
